@@ -41,7 +41,7 @@ for (let i = 0; i < edits.length; i++){
 }
 
 // but that code isn't readily reusable,
-// and there's state with the `let page`
+// and there's mutable state with the `let page`
 
 // Instead, we can make Page a Semigroup by adding a merge method:
 class Page {
@@ -60,7 +60,9 @@ class Page {
 
 // Now, we can reduce it rather than loop it:
 
-const page = edits.reduce()
+const page = edits.reduce(
+  (a, b) => a.merge(b)
+)
 ```
 
 Monoid
@@ -69,5 +71,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMzkxMTI2LC00NTQ1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTU1MzU5MTMsLTQ1NDUwODYzMl19
 -->
