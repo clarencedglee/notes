@@ -15,10 +15,10 @@ All about combining stuff. Let's make something very common, arithmetic, as an e
 2.multiplyBy(2)
 
 // So what?
-// Imagine a more complex scenario:
+// Imagine a different type to Integer:
 class Project {
-  name, //string
-  updatedOn, //date
+  name,        //string
+  updatedOn,   //date
   contributors //[string]
 }
 ```
@@ -29,5 +29,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTQxMTgwNl19
+eyJoaXN0b3J5IjpbLTE3Mjk4Mzk2NzFdfQ==
 -->
