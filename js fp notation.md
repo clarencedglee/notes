@@ -24,6 +24,9 @@ fn :: Thing a => a ~> b -> c
 // that takes a type of b 
 // and returns a type of c
 ```
+
+Looking at method notation, my brain finds often looks the the pattern `Thing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0OTgyMTYzLC0xODMzMDMyMjg3XX0=
+eyJoaXN0b3J5IjpbLTE4NTA3OTA0ODAsODM0OTgyMTYzLC0xOD
+MzMDMyMjg3XX0=
 -->
