@@ -26,8 +26,10 @@ class Page {
 const edits = [
   Page('FP', '2018-01-01', ['Sue']),
   Page('FP', '2018-02-02', ['Sue', 'Bob']),
-  Page('FP', '2018-02-02')
+  Page('FP', '2018-02-02', [`Sue`, `Sam`])
 ]
+
+
 ```
 
 Monoid
@@ -36,5 +38,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA0ODQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTQ1NDUwODYzMl19
 -->
