@@ -19,7 +19,9 @@ Let's start with an example of a very common semigroup, adding integers:
 
 // However, ordering does matter
 // If we combine strings:
-'a'
+'a'.concat('b').concat('c')
+=== 'a'.concat('b'.concat('c'))
+!=== 'b'.concat('a'.concat('c'))
 
 // So what?
 // Imagine a different type to Integer:
@@ -83,6 +85,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MTUxMDA4LDE5OTE0NTkxOTEsMjE2Mz
-AzNjQ1LC0xMzU1NTM1OTEzLC00NTQ1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbLTExNTY0ODcyMTYsMTk5MTQ1OTE5MSwyMT
+YzMDM2NDUsLTEzNTU1MzU5MTMsLTQ1NDUwODYzMl19
 -->
