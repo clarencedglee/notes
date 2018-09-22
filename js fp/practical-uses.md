@@ -23,8 +23,9 @@ class Page {
 }
 
 // and you have a record of people editing the page on their own devices
-const edits = [ç
-Ω]
+const edits = [
+  Page('FP', '2018-01-01', ['Sue']),
+]
 ```
 
 Monoid
@@ -33,5 +34,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzUxMzk1Ml19
+eyJoaXN0b3J5IjpbLTgwMjEwNzA4Nl19
 -->
