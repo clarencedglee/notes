@@ -16,7 +16,11 @@ All about combining stuff. Let's make something very common, arithmetic, as an e
 
 // So what?
 // Imagine a more complex scenario:
-class C
+class Project {
+  name, //string
+  updatedOn, //date
+  contributors //[string]
+}
 ```
 
 Monoid
@@ -25,5 +29,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNDA0ODIxXX0=
+eyJoaXN0b3J5IjpbLTQwNTQxMTgwNl19
 -->
