@@ -16,13 +16,13 @@ All about combining stuff. Let's take something very common, arithmetic, as an e
 
 // So what?
 // Imagine a different type to Integer:
-class Project {
+class Page {
   name,        //string
   lastUpdated, //date
   contributors //[string]
 }
 
-// and you have several instances of the same project from differen
+// and you have a record of people editing the page on their own devices
 ```
 
 Monoid
@@ -31,5 +31,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNjM0MTg3XX0=
+eyJoaXN0b3J5IjpbLTE3NTE1Njk4MjldfQ==
 -->
