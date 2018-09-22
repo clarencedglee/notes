@@ -29,10 +29,10 @@ const edits = [
   Page('FP', '2018-02-02', [`Sue`, `Sam`])
 ]
 
-// you can make Page a Semigroup by adding a combine method:
+// you can make Page a Semigroup by adding a merge method:
 class Page {
   ...
-  combine(otherPage) {
+  merge(otherPage) {
     return new Page(
       this.name,
       Date.latest(this.date, otherPage.date),
@@ -51,5 +51,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM4Nzc2ODMsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbLTg0MzEzODkzLC00NTQ1MDg2MzJdfQ==
 -->
