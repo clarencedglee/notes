@@ -25,6 +25,8 @@ class Page {
 // and you have a record of people editing the page on their own devices
 const edits = [
   Page('FP', '2018-01-01', ['Sue']),
+  Page('FP', '2018-02-02', ['Sue', 'Bob']),
+  Page('FP', '2018-02-02')
 ]
 ```
 
@@ -34,5 +36,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjEwNzA4Nl19
+eyJoaXN0b3J5IjpbLTE0NjA0ODQ3MThdfQ==
 -->
