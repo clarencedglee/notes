@@ -31,14 +31,17 @@ const edits = [
 
 // we could loop through it to merge the information...
 let page = new Page()
-for (let i = 0; i < edits.length)
+for (let i = 0; i < edits.length; i++){
+  page.name = edits[i].name
+  page.
+}
 
 // you can make Page a Semigroup by adding a merge method:
 class Page {
   ...
   merge(otherPage) {
     return new Page(
-      this.name,
+      otherPage.name,
       Date.latest(this.date, otherPage.date),
       [... new Set(
         ...this.contributors,
@@ -55,5 +58,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxNTI0MTQyLC00NTQ1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbNjA1ODQ4MjEyLC00NTQ1MDg2MzJdfQ==
 -->
