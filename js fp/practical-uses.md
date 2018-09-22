@@ -4,8 +4,9 @@ Monoids
 Basically lets you `reduce`. Did that feel anti-climactical? Think about all the times you've had to deal with processing zero or more things. That's a lot of the times:
 
 ``` javascript
+const result = true
 for(i = 0; i < )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODgxMjQ2M119
+eyJoaXN0b3J5IjpbMTE5MTcyNjkwMF19
 -->
