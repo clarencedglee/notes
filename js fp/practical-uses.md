@@ -1,7 +1,7 @@
 Functional Programming can seem a bit cryptic at first glance. Here are some of my aha moments, where the theory becomes practical:
 
 Semigroup
-All about combining stuff. Let's make something very common, arithmetic, as an example:
+All about combining stuff. Let's take something very common, arithmetic, as an example:
 
 ```javascript
 // addition
@@ -21,6 +21,8 @@ class Project {
   updatedOn,   //date
   contributors //[string]
 }
+
+// and you have several in
 ```
 
 Monoid
@@ -29,5 +31,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4Mzk2NzFdfQ==
+eyJoaXN0b3J5IjpbMTUzMDkxNTYyM119
 -->
