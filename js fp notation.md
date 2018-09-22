@@ -4,7 +4,7 @@ Explaining, in my own words, Javascript Type notation found in:
  - http://www.tomharding.me/fantasy-land
  - https://github.com/sanctuary-js/sanctuary
 ```javascript
-fn ::  a -> b
+fn :: a -> b
 // fn is a member of a function 
 // that takes a type of a 
 // and returns a type of b
@@ -25,5 +25,5 @@ fn :: Thing a => a ~> b -> c
 // and returns a type of c
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTIxODYxXX0=
+eyJoaXN0b3J5IjpbLTE4MzMwMzIyODddfQ==
 -->
