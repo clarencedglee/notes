@@ -22,12 +22,16 @@ class Page {
   contributors //[string]
 }
 
-// and you have a record of people editing the page on their own devices
+// and we have a record of people editing the page on their own devices
 const edits = [
   Page('FP', '2018-01-01', ['Sue']),
   Page('FP', '2018-02-02', ['Sue', 'Bob']),
   Page('FP', '2018-02-02', [`Sue`, `Sam`])
 ]
+
+// we could loop through it to merge the information...
+let page = new Page()
+for (let i = 0; i < edits.length)
 
 // you can make Page a Semigroup by adding a merge method:
 class Page {
@@ -51,5 +55,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzEzODkzLC00NTQ1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbNDgxNTI0MTQyLC00NTQ1MDg2MzJdfQ==
 -->
