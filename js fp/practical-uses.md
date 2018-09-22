@@ -9,13 +9,12 @@ Let's start with an example of a very common semigroup, adding integers:
 ```javascript
 // addition
 1 + 1
-// could be seen calling a method on Integer that takes another Integer
+// could be seen as calling a method on Integer that takes another Integer
 1.add(1)
 
-// multiplication
-2 * 2
-// same idea:
-2.multiplyBy(2)
+// and it is associative
+1.add(2).add(3)
+=== (1.add(2)
 
 // So what?
 // Imagine a different type to Integer:
@@ -79,6 +78,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwOTc3ODQxLDE5OTE0NTkxOTEsMjE2Mz
+eyJoaXN0b3J5IjpbNTk1NDg1NTM5LDE5OTE0NTkxOTEsMjE2Mz
 AzNjQ1LC0xMzU1NTM1OTEzLC00NTQ1MDg2MzJdfQ==
 -->
