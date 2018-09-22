@@ -32,10 +32,11 @@ const edits = [
 // you can make Page a Semigroup by adding a combine method:
 class Page {
   ...
-  combine(page) {
-    return {
-      
-    }
+  combine(otherPage) {
+    return new Page(
+      this.name,
+      Date.latest(this.date, otherpa)
+    )
   }
 }
 ```
@@ -46,5 +47,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTI0NTMyMywtNDU0NTA4NjMyXX0=
+eyJoaXN0b3J5IjpbLTE0OTE2MTAzMjcsLTQ1NDUwODYzMl19
 -->
