@@ -13,7 +13,7 @@ Let's start with an example of a very common semigroup, adding integers:
 1.add(1)
 
 // and it is associative
-// ()
+// We apply th
 1.add(2).add(3)
 === (1.add(2.add(3)))
 
@@ -79,6 +79,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk0OTYzNDgsMTk5MTQ1OTE5MSwyMT
-YzMDM2NDUsLTEzNTU1MzU5MTMsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbMTUxMzM1NjQzOSwxOTkxNDU5MTkxLDIxNj
+MwMzY0NSwtMTM1NTUzNTkxMywtNDU0NTA4NjMyXX0=
 -->
