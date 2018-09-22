@@ -63,6 +63,10 @@ class Page {
 const page = edits.reduce(
   (a, b) => a.merge(b)
 )
+
+// And with different strategies...
+// latest :: Date a => a -> a -> a
+// uniq :: Array a => ->
 ```
 
 Monoid
@@ -71,6 +75,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MzAzNjQ1LC0xMzU1NTM1OTEzLC00NT
-Q1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbMTMzOTMxOTI1OSwyMTYzMDM2NDUsLTEzNT
+U1MzU5MTMsLTQ1NDUwODYzMl19
 -->
