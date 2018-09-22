@@ -33,7 +33,10 @@ const edits = [
 let page = new Page()
 for (let i = 0; i < edits.length; i++){
   page.name = edits[i].name
-  page.
+  page.lastUpdated = Date.latest(page.date, edits[0].date)
+  page.contributors = [... new Set(
+  
+  )]
 }
 
 // you can make Page a Semigroup by adding a merge method:
@@ -58,5 +61,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1ODQ4MjEyLC00NTQ1MDg2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE1MDAzNzQyNTEsLTQ1NDUwODYzMl19
 -->
