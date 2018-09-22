@@ -15,6 +15,7 @@ fn :: a ~> b -> c
 
 fn :: Thing a => a ~> b -> c
 // fn is a method of Thing that takes a type of b and returns a type of c
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODg4Nzk5MThdfQ==
+eyJoaXN0b3J5IjpbLTc1Mjk0MzM3Ml19
 -->
