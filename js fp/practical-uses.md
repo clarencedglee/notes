@@ -6,7 +6,8 @@ All about combining stuff. Let's make something very common, arithmetic, as an e
 ```javascript
 // addition
 1 + 1
-// could be seen as
+// could be seen calling a method on Integer that takes another Integer
+1.add(1)
 ```
 
 Monoid
@@ -15,5 +16,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ1MDgxNDVdfQ==
+eyJoaXN0b3J5IjpbLTI2MjkzMzQ3Ml19
 -->
