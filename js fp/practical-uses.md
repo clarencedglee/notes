@@ -13,11 +13,12 @@ Let's start with an example of a very common semigroup, adding integers:
 1.add(1)
 
 // and it is associative
-// Which `add` we execute first doesn't matter
+// meaing grouping doesn't matter
+// e.g which `add` we execute first doesn't matter:
 1.add(2).add(3)
 === (1.add(2.add(3)))
 
-// However, ordering does matter
+// but positioning does matter
 // If we combine strings:
 'a'.concat('b').concat('c')
 === 'a'.concat('b'.concat('c'))
@@ -85,6 +86,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY0ODcyMTYsMTk5MTQ1OTE5MSwyMT
-YzMDM2NDUsLTEzNTU1MzU5MTMsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbMTcyNzMwNjMyOSwxOTkxNDU5MTkxLDIxNj
+MwMzY0NSwtMTM1NTUzNTkxMywtNDU0NTA4NjMyXX0=
 -->
