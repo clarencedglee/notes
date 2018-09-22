@@ -3,7 +3,7 @@ Explaining, in my own words, Javascript Type notation found in:
 
  - http://www.tomharding.me/fantasy-land
  - https://github.com/sanctuary-js/sanctuary
-```
+```javascript
 fn ::  a -> b
 // fn is a member of a function taking a type of a and returning a type of b
 
@@ -17,5 +17,5 @@ fn :: Thing a => a ~> b -> c
 // fn is a method of Thing that takes a type of b and returns a type of c
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mjk0MzM3Ml19
+eyJoaXN0b3J5IjpbMTcyODk2MDgwMV19
 -->
