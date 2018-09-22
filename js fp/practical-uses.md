@@ -1,7 +1,7 @@
 Functional Programming can seem a bit cryptic at first glance. Here are some of my aha moments, where the theory becomes practical:
 
 ## Semigroup
-All about combining stuff. Let's take something very common, arithmetic, as an example:
+All about combining stuff, and in a parallesisable way! Parallelism is enabled through associativity. Let's take something very common, arithmetic, as an example:
 
 ```javascript
 // addition
@@ -76,6 +76,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTQ1OTE5MSwyMTYzMDM2NDUsLTEzNT
-U1MzU5MTMsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbMTMwMzI3MDA0NCwxOTkxNDU5MTkxLDIxNj
+MwMzY0NSwtMTM1NTUzNTkxMywtNDU0NTA4NjMyXX0=
 -->
