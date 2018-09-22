@@ -1,5 +1,5 @@
 # JS FP notation
-Explaining, in my own words, Javascript Type notation found in:
+Explaining, in my own words, the Hindley-Milner notation found in Functional Javascript projecrs such as:
 
  - http://www.tomharding.me/fantasy-land
  - https://github.com/sanctuary-js/sanctuary
@@ -25,5 +25,5 @@ fn :: Thing a => a ~> b -> c
 // and returns a type of c
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMwMzIyODddfQ==
+eyJoaXN0b3J5IjpbOTgwNTgxMjksLTE4MzMwMzIyODddfQ==
 -->
