@@ -4,7 +4,7 @@ Functional Programming can seem a bit cryptic at first glance. Here are some of 
 - Combine things associatively
 - Associativity enables parallelism
 
-Let's take something very common, arithmetic, as an example:
+Let's start with an example of a very common semigroup, adding integers:
 
 ```javascript
 // addition
@@ -79,6 +79,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0ODkwOTY5LDE5OTE0NTkxOTEsMjE2Mz
+eyJoaXN0b3J5IjpbNjIwOTc3ODQxLDE5OTE0NTkxOTEsMjE2Mz
 AzNjQ1LC0xMzU1NTM1OTEzLC00NTQ1MDg2MzJdfQ==
 -->
