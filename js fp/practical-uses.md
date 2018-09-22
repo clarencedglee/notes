@@ -5,10 +5,16 @@ Basically lets you `reduce`. Did that feel anti-climactical? Think about all the
 
 ``` javascript
 const price = [1, 2, 3]
+
 const result = true
-for(i = 0; i < prices.length) {
+for(i = 0; i < prices.length; i++) {
+  if(price <= 0) {
+    result = false
+  }
 }
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTAzNjMyMV19
+eyJoaXN0b3J5IjpbNzY5NjYxNTM0XX0=
 -->
