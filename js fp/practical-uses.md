@@ -36,7 +36,7 @@ class Page {
     return new Page(
       this.name,
       Date.latest(this.date, otherPage.date),
-      new Set(this.contributors.concat(otherPage.contributors)).toArray()
+      [... new Set(this.contributors.concat(otherPage.contributors)).toArray()
     )
   }
 }
@@ -48,5 +48,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MjczNzcsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbLTE0NjQ0NzkyMjYsLTQ1NDUwODYzMl19
 -->
