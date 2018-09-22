@@ -26,10 +26,11 @@ fn :: Thing a => a ~> b -> c
 
 fn :: Thing f => f a ~> f (a -> b) -> f b
 // fn is a method of Thing
-// that tales 
+// Thing contains an a
+// 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzUyOTM3MCw4MzQ5ODIxNjMsLTE4Mz
-MwMzIyODddfQ==
+eyJoaXN0b3J5IjpbLTExNDk5OTYwNzMsODM0OTgyMTYzLC0xOD
+MzMDMyMjg3XX0=
 -->
