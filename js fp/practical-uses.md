@@ -29,7 +29,15 @@ const edits = [
   Page('FP', '2018-02-02', [`Sue`, `Sam`])
 ]
 
-
+// you can make Page a Semigroup by adding a combine method:
+class Page {
+  ...
+  combine(page) {
+    return {
+      
+    }
+  }
+}
 ```
 
 Monoid
@@ -38,5 +46,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbLTM1OTI0NTMyMywtNDU0NTA4NjMyXX0=
 -->
