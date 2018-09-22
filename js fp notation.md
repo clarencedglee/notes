@@ -15,11 +15,15 @@ fn :: a -> b -> c
 // and returns a type of c
 
 fn :: a ~> b -> c
-// fn is a method of a type of a that takes a type of b and returns a type of c
+// fn is a method of a type of a 
+// that takes a type of b 
+// and returns a type of c
 
 fn :: Thing a => a ~> b -> c
-// fn is a method of Thing that takes a type of b and returns a type of c
+// fn is a method of Thing 
+// that takes a type of b 
+// and returns a type of c
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk3NDQ5NTVdfQ==
+eyJoaXN0b3J5IjpbMjEyNTIxODYxXX0=
 -->
