@@ -35,9 +35,13 @@ for (let i = 0; i < edits.length; i++){
   page.name = edits[i].name
   page.lastUpdated = Date.latest(page.date, edits[0].date)
   page.contributors = [... new Set(
-  
+    ... page.contributors,
+    ... edits[0].contributors
   )]
 }
+
+// but that code isn't readily reusable,
+// and there's state in 
 
 // you can make Page a Semigroup by adding a merge method:
 class Page {
@@ -61,5 +65,5 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAzNzQyNTEsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbLTE5MzYyNzAyNjcsLTQ1NDUwODYzMl19
 -->
