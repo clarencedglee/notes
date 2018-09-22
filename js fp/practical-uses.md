@@ -1,6 +1,6 @@
 Functional Programming can seem a bit cryptic at first glance. Here are some of my aha moments, where the theory becomes practical:
 
-Semigroup
+## Semigroup
 All about combining stuff. Let's take something very common, arithmetic, as an example:
 
 ```javascript
@@ -71,5 +71,6 @@ Basically a semigroup that you can `reduce`.
 ```javascript
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU1MzU5MTMsLTQ1NDUwODYzMl19
+eyJoaXN0b3J5IjpbMjE2MzAzNjQ1LC0xMzU1NTM1OTEzLC00NT
+Q1MDg2MzJdfQ==
 -->
